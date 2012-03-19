@@ -92,14 +92,17 @@ body {
 #settings-button-container #settings-button .goog-flat-menu-button-caption {
   display: none !important;
 }
-.goog-flat-menu-button, .jfk-button-standard, .goog-button-base-inner-box {
+.goog-flat-menu-button,
+.jfk-button-standard,
+.goog-button-base-inner-box {
   background: none !important;
   border: none !important;
 }
 .goog-button-base-outer-box {
   border: none !important;
 }
-.goog-button-base, .goog-flat-menu-button.goog-flat-menu-button-hover {
+.goog-button-base,
+.goog-flat-menu-button.goog-flat-menu-button-hover {
   box-shadow: none !important;
 }
 #logo-section {
@@ -190,7 +193,8 @@ body {
   margin-right: 1px;
   margin-top: 3px;
 }
-#scrollable-sections-top-shadow, #scrollable-sections-bottom-shadow {
+#scrollable-sections-top-shadow,
+#scrollable-sections-bottom-shadow {
   display: none !important;
 }
 .section-minimize {
@@ -225,7 +229,8 @@ body {
   padding-left: 20px !important;
   border-left: none !important;
 }
-#lhn-selectors .selected a span, #lhn-selectors .selected a:hover span {
+#lhn-selectors .selected a span,
+#lhn-selectors .selected a:hover span {
   color: #808080 !important;
 }
 .sub-tree-refreshing #sub-tree-refreshing {
@@ -246,16 +251,20 @@ body {
   height: 25px !important;
   overflow-y: hidden;
 }
-#lhn-recommendations, #directory-selector {
+#lhn-recommendations,
+#directory-selector {
   display: none !important;
 }
 .selectors-footer {
   display: none !important;
 }
-.selector:hover, #lhn-selectors .selector:hover {
+.selector:hover,
+#lhn-selectors .selector:hover {
   background-color: transparent !important;
 }
-#nav a, #nav a .text, #nav .link {
+#nav a,
+#nav a .text,
+#nav .link {
   color: #808080 !important;
 }
 .scroll-tree .icon {
@@ -267,7 +276,9 @@ body {
 .sub-name-text {
   margin-left: 39px !important;
 }
-#lhn-selectors, #lhn-recommendations, #lhn-subscriptions {
+#lhn-selectors,
+#lhn-recommendations,
+#lhn-subscriptions {
   background-color: transparent !important;
 }
 .scroll-tree .toggle {
@@ -306,13 +317,16 @@ body {
 .scroll-tree li .updated-intermediate {
   background-color: transparent !important;
 }
-a:hover .tree-item-action-container, .scroll-tree li a.menu-open {
+a:hover .tree-item-action-container,
+.scroll-tree li a.menu-open {
   background-color: transparent !important;
 }
-.scroll-tree li a.tree-link-selected .name, .scroll-tree li a.tree-link-selected:hover .name {
+.scroll-tree li a.tree-link-selected .name,
+.scroll-tree li a.tree-link-selected:hover .name {
   color: #0f0f0f !important;
 }
-.unread-count, .entry .entry-date {
+.unread-count,
+.entry .entry-date {
   color: #8f8f8f !important;
 }
 #nav,
@@ -466,7 +480,8 @@ a:hover .tree-item-action-container, .scroll-tree li a.menu-open {
 #stream-prefs-menu .goog-button-body {
   display: none !important;
 }
-#item-up-down-buttons, #chrome-view-links {
+#item-up-down-buttons,
+#chrome-view-links {
   float: left !important;
 }
 #stream-view-options-container {
@@ -513,7 +528,8 @@ a:hover .tree-item-action-container, .scroll-tree li a.menu-open {
 #entries {
   border-top: 0 !important;
 }
-#entries .entry, #entries.list .entry-container {
+#entries .entry,
+#entries.list .entry-container {
   background-color: transparent !important;
 }
 #entries.list .entry .entry-container {
@@ -527,7 +543,9 @@ a:hover .tree-item-action-container, .scroll-tree li a.menu-open {
   border-left: 0 !important;
   height: 37px !important;
 }
-#entries.list .collapsed .entry-source-title, #entries.list .collapsed .entry-title, #entries.list .collapsed .entry-date {
+#entries.list .collapsed .entry-source-title,
+#entries.list .collapsed .entry-title,
+#entries.list .collapsed .entry-date {
   line-height: 37px !important;
 }
 #entries .entry .collapsed .entry-title {
@@ -539,7 +557,8 @@ a:hover .tree-item-action-container, .scroll-tree li a.menu-open {
 #entries .read .collapsed .entry-title {
   color: #757575 !important;
 }
-.entry .entry-body, .entry .entry-title {
+.entry .entry-body,
+.entry .entry-title {
   max-width: 500px !important;
 }
 #entries.list .read .collapsed {
@@ -569,7 +588,8 @@ a:hover .tree-item-action-container, .scroll-tree li a.menu-open {
 #entries.list #current-entry.expanded .collapsed {
   border-bottom: none !important;
 }
-.samedir .search-result .entry-original, .samedir #entries .collapsed .entry-original {
+.samedir .search-result .entry-original,
+.samedir #entries .collapsed .entry-original {
   display: none !important;
 }
 #entries.list #current-entry.expanded .entry-container {
@@ -617,7 +637,9 @@ a:hover .tree-item-action-container, .scroll-tree li a.menu-open {
 #current-entry .entry-actions .link:hover {
   color: #404040 !important;
 }
-#current-entry .entry-actions .item-plusone, #current-entry .entry-actions .sharebox, #current-entry .entry-actions .tag {
+#current-entry .entry-actions .item-plusone,
+#current-entry .entry-actions .sharebox,
+#current-entry .entry-actions .tag {
   display: none !important;
 }
 #current-entry .entry-actions .star {
@@ -693,10 +715,13 @@ a:hover .tree-item-action-container, .scroll-tree li a.menu-open {
   font-family: iconSweets;
   font-size: 30px;
 }
-#current-entry .entry-actions .item-link .entry-link-action-title, #current-entry .entry-actions .item-link .item-link-drop-down-arrow {
+#current-entry .entry-actions .item-link .entry-link-action-title,
+#current-entry .entry-actions .item-link .item-link-drop-down-arrow {
   display: none !important;
 }
-html, body, input {
+html,
+body,
+input {
   font-family: "Helvetica", sans-serif !important;
 }
 #entries .entry-title {

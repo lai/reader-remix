@@ -109,7 +109,7 @@
 #gb {display: none !important;}
 
 
-//// GLOABAL
+//// GLOBAL
 * {font-weight: normal !important;}
 body {
 	.bodyBg;
@@ -381,6 +381,7 @@ width: 230px !important;
 	background-color: @topbarColor !important;
 	height: 40px !important;
 	border-bottom: 1px solid @topbarBorderColor !important;
+	z-index: 9999 !important;
 }
 #viewer-container {
 	.trans;
@@ -390,6 +391,7 @@ width: 230px !important;
 	.trans;
 	height: 40px !important;	
 	margin-right: 10px !important;
+	z-index: 9999 !important;
 }
 #viewer-refresh {
 	.none;
@@ -655,6 +657,37 @@ color: @unreadTitle !important;}
 		}
 		.entry-link-action-title, .item-link-drop-down-arrow {.none;}
 	}
+}
+
+.goog-menu {
+	margin-top: 6px !important;
+	background-color: #2b2b2b !important;
+	-webkit-box-shadow: #1a1a1a 0px 10px 10px !important;
+	z-index: 100 !important;
+}
+.goog-menuitem, .goog-menuitem-content, .goog-menuitem-content span {color: #999 !important;}
+.goog-menuitem-highlight, .goog-menuitem-hover {
+    background-color: #555 !important;
+    border-color: #555 !important;
+	padding-top: 4px !important;
+	padding-bottom: 4px !important;
+}
+.subscription-folders-menu {z-index: 10 !important;}
+.goog-menuseparator {border-top-color: #393939 !important;}
+.goog-option-selected {
+	background-image:none !important;
+	.goog-menuitem-checkbox:before {
+		display: block;
+		content: "=" !important;
+		font-family: iconSweets;
+		font-size: 13px;
+		padding-left: 3px !important;
+		margin-top: 2px;
+	}
+}
+.goog-submenu-arrow {padding-right: 10px; font-size: 10px !important;}
+.goog-menuitem.goog-menuitem-disabled .goog-menuitem-accel, .goog-menuitem.goog-menuitem-disabled .goog-menuitem-content {
+	color: #666666 !important;
 }
 
 html, body, input {font-family: "Helvetica", sans-serif !important;}
